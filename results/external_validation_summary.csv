@@ -1,0 +1,11 @@
+dataset,comparison,case_n,control_n,unit,effect,ci_or_range,p,fdr,direction,interpretation,role,caveat
+GSE256398,MASLD_F0 vs Healthy,3,6,donor,median pseudobulk 0.026 vs 0.011; 2.35x,0.02-0.04 vs 0.00-0.03,0.245,0.245,"up, ns",MASL not significantly elevated,supplementary,small n; alcohol groups in same dataset
+GSE256398,MASH_Fibrosis vs Healthy,4,6,donor,median pseudobulk 0.116 vs 0.011; 10.45x,0.05-0.21 vs 0.00-0.03,0.0142,0.0355,"up, significant",supports MASH fibrosis elevation,main external support,non-monotonic; not MASH-specific
+GSE256398,MASH_Cirrhosis vs Healthy,4,6,donor,median pseudobulk 0.024 vs 0.011; 2.15x,0.02-0.10 vs 0.00-0.03,0.241,0.245,"up, ns",cirrhosis stage falls back,supplementary,non-monotonic
+GSE256398,Alcohol_Cirrhosis vs Healthy,4,6,donor,median pseudobulk 0.074 vs 0.011; 6.63x,0.01-0.13 vs 0.00-0.03,0.241,0.245,"up, ns",alcohol cirrhosis also elevated directionally,supplementary,underpowered; not MASH-specific
+GSE256398,Alcohol_Hepatitis vs Healthy,5,6,donor,median pseudobulk 0.087 vs 0.011; 7.80x,0.04-0.19 vs 0.00-0.03,0.0081,0.0355,"up, significant",alcohol hepatitis also elevated => not MASH-specific,main caveat,requires etiology-neutral wording
+GSE287826,MASH vs Healthy (donor),11,4,donor,delta log2 +0.163; fold 1.12,NA,0.2149,0.5372,"up, ns",direction consistent but not significant,supplementary,small healthy n; ROI sampling
+GSE287826,MASH vs Healthy (ROI),22,8,ROI,delta log2 +0.163,NA,0.1274,0.5372,"up, ns",ROI-level sensitivity,supplementary,pseudo-replication if ROI treated as independent
+GSE287826,adjusted model (ROI),22,8,ROI,beta=+0.170,NA,0.2086,NA,"up, ns",robust to area/nuclei/saturation adjustment,supplementary,still underpowered
+GSE287826,TP53I3 vs p53 program,30,NA,ROI,Spearman rho=+0.497,NA,0.0052,NA,positive,spatial co-expression with p53 program,supportive,ROI-level; not causal
+HPA v25,cell-type ranking vs GSE289173,12,NA,cell type,Spearman rho=0.795,NA,0.00199,NA,positive,cell-type ranking concordance,supportive,nCPM vs positive-rate; rank only

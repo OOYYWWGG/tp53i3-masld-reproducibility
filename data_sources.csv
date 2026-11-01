@@ -1,0 +1,22 @@
+resource,resource_type,identifier,use_in_manuscript,access_url,raw_data_redistributed
+GSE126848,Bulk liver transcriptome,GSE126848,Candidate discovery and differential-expression context,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126848,No; obtain from source
+GSE135251,Bulk liver transcriptome,GSE135251,Primary fibrosis/NAS association and composition sensitivity,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135251,No; obtain from source
+GSE48452,Bulk liver transcriptome,GSE48452,Primary fibrosis/NAS association and increment model,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48452,No; obtain from source
+GSE89632,Bulk liver transcriptome,GSE89632,Primary fibrosis/NAS association and increment model,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE89632,No; obtain from source
+GSE49541,Bulk liver microarray,GSE49541,Extreme-group sensitivity analysis,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE49541,No; obtain from source
+GSE281797,Bulk liver transcriptome,GSE281797,"Primary fibrosis/NAS association, composition model, and event-limited incremental model",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE281797,No; obtain from source
+GSE193066,Bulk liver transcriptome,GSE193066,Primary five-cohort meta-analysis,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE193066,No; obtain from source
+GSE289173,Single-nucleus liver transcriptome,GSE289173,Donor-level hepatocyte pseudobulk and specificity analyses,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289173,No; obtain from source
+GSE244832,Single-nucleus liver transcriptome,GSE244832,Directional single-nucleus support,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE244832,No; obtain from source
+GSE256398,Single-nucleus liver transcriptome,GSE256398,External single-nucleus support and etiologic-boundary analysis,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE256398,No; obtain from source
+GSE287826,Spatial liver transcriptome,GSE287826,Supplementary spatial consistency analysis,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE287826,No; obtain from source
+eQTLGen,cis-eQTL summary statistics,Whole-blood cis-eQTL resource,Supplementary Mendelian randomization,https://www.eqtlgen.org/,No; obtain from source
+FinnGen,GWAS summary statistics,R12,Supplementary Mendelian randomization outcomes,https://r12.finngen.fi/,No; obtain from source
+GTEx,eQTL summary statistics,v8,Supplementary liver-tissue sensitivity analysis,https://gtexportal.org/,No; obtain from source
+1000 Genomes,LD reference panel,EUR,LD clumping for supplementary genetic analysis,https://www.internationalgenome.org/,No; obtain from source
+GWAS Catalog,GWAS summary statistics,GCST90054782; GCST90091033; GCST90319877; GCST90728570,Supplementary Mendelian randomization outcomes,https://www.ebi.ac.uk/gwas/studies/,No; obtain from source
+gnomAD,Population constraint database,v4; ENSG00000115129,Supplementary gene constraint analysis,https://gnomad.broadinstitute.org/,No; obtain from source
+Human Protein Atlas,Protein expression atlas,v25,Supplementary cell-type consistency analysis,https://www.proteinatlas.org/,No; obtain from source
+Liver Cell Atlas,Single-cell liver atlas,Public matrix,Supplementary cell-type consistency analysis,https://www.livercellatlas.org/,No; obtain from source
+UCSC Genome Browser,Regulatory annotation,hg38 encRegTfbsClustered,Supplementary transcription-factor binding-site analysis,https://genome.ucsc.edu/,No; obtain from source
+PRIDE,Proteomics project,PXD085290,Supplementary evidence-boundary discussion,https://www.ebi.ac.uk/pride/archive/projects/PXD085290,No; obtain from source

@@ -1,0 +1,5 @@
+"contrast","target_group","method","mde80_log2","mde80_fold_change","simulations"
+"eMASH vs MASL","eMASH","permutation_calibrated_model_design",1.15,2.21913894413569,10000
+"aMASH vs MASL","aMASH","permutation_calibrated_model_design",1.15,2.21913894413569,10000
+"eMASH vs MASL","eMASH","exact_Wilcoxon_null_distribution",1.525,2.87786716002164,10000
+"aMASH vs MASL","aMASH","exact_Wilcoxon_null_distribution",1.55,2.92817139189125,10000

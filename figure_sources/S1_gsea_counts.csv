@@ -1,0 +1,19 @@
+dataset,comparison,geneset_raw,count,geneset
+GSE126848,NAFL_vs_NASH,c5.go.bp.v2026.1.Hs.symbols,780,GO gene sets
+GSE126848,NAFL_vs_NASH,h.all.v2026.1.Hs.symbols,23,Hallmark gene sets
+GSE126848,healthy_vs_NAFL,c5.go.bp.v2026.1.Hs.symbols,1543,GO gene sets
+GSE126848,healthy_vs_NAFL,h.all.v2026.1.Hs.symbols,29,Hallmark gene sets
+GSE126848,healthy_vs_NASH,c5.go.bp.v2026.1.Hs.symbols,959,GO gene sets
+GSE126848,healthy_vs_NASH,h.all.v2026.1.Hs.symbols,33,Hallmark gene sets
+GSE126848,healthy_vs_obese,c5.go.bp.v2026.1.Hs.symbols,633,GO gene sets
+GSE126848,healthy_vs_obese,h.all.v2026.1.Hs.symbols,22,Hallmark gene sets
+GSE126848,obese_vs_NAFL,c5.go.bp.v2026.1.Hs.symbols,1629,GO gene sets
+GSE126848,obese_vs_NAFL,h.all.v2026.1.Hs.symbols,31,Hallmark gene sets
+GSE126848,obese_vs_NASH,c5.go.bp.v2026.1.Hs.symbols,1152,GO gene sets
+GSE126848,obese_vs_NASH,h.all.v2026.1.Hs.symbols,31,Hallmark gene sets
+GSE135251,NAFL_vs_NASH,c5.go.bp.v2026.1.Hs.symbols,987,GO gene sets
+GSE135251,NAFL_vs_NASH,h.all.v2026.1.Hs.symbols,31,Hallmark gene sets
+GSE135251,control_vs_NAFL,c5.go.bp.v2026.1.Hs.symbols,563,GO gene sets
+GSE135251,control_vs_NAFL,h.all.v2026.1.Hs.symbols,27,Hallmark gene sets
+GSE135251,control_vs_NASH,c5.go.bp.v2026.1.Hs.symbols,398,GO gene sets
+GSE135251,control_vs_NASH,h.all.v2026.1.Hs.symbols,20,Hallmark gene sets

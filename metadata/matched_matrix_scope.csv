@@ -1,0 +1,5 @@
+item,matrix,sha256,scope
+Matched raw hepatocyte matrix,raw,FD205B7974B6DCB459765B5CC9CB4061622F22DD8543BE37BD00A0D35076AE08,"20 911 hepatocyte nuclei from 48 donors"
+Matched DecontX-corrected hepatocyte matrix,DecontX-corrected,08CF40CB811BB27E207B18CA17F79E2495DC73B93CCFA5DB31A96A2ED699EF51,"celda 1.28.0; batch=NULL; seed=12345"
+Primary pseudobulk model,input count matrix,NA,"log2(CP10K + 0.01) ~ group + log(median nCount)"
+Sensitivity pseudobulk model,matched raw and corrected matrices,NA,"Same donors and model formula; corrected matrix is sensitivity only"

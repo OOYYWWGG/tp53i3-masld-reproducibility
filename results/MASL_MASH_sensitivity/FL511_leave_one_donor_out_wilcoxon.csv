@@ -1,0 +1,3 @@
+"contrast","target_group","analysis","method","statistic","p","actual_alpha","direct_pair_bh_q","six_pair_bh_q"
+"eMASH vs MASL","eMASH","loo_without_FL511","exact Wilcoxon rank-sum",42,0.00699300699300699,0.05,0.00799200799200799,0.011988011988012
+"aMASH vs MASL","aMASH","loo_without_FL511","exact Wilcoxon rank-sum",46,0.00799200799200799,0.05,0.00799200799200799,0.011988011988012

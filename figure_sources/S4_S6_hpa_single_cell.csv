@@ -1,0 +1,15 @@
+hpa_cell_type,hpa_ncpm,study_cell_type,study_positive_fraction,来源,检索日期
+Cholangiocytes,40.4,Cholangiocyte,0.075,HPA v25 single cell type (nCPM),2026-10-15
+Hepatic stellate cells,32.3,HSC_Stellate,0.016,HPA v25 single cell type (nCPM),2026-10-15
+Fibroblasts,26.2,,,HPA v25 single cell type (nCPM),2026-10-15
+Lymphatic endothelial cells,24.4,Lymphatic_EC,0.057,HPA v25 single cell type (nCPM),2026-10-15
+Monocytes,20.0,Monocyte,0.042,HPA v25 single cell type (nCPM),2026-10-15
+Macrophages,17.5,Macrophage,0.028,HPA v25 single cell type (nCPM),2026-10-15
+Vascular endothelial cells,17.0,Endothelial,0.034,HPA v25 single cell type (nCPM),2026-10-15
+Kupffer cells,16.4,,,HPA v25 single cell type (nCPM),2026-10-15
+Hepatocytes,13.4,Hepatocyte,0.022,HPA v25 single cell type (nCPM),2026-10-15
+Plasma cells,12.5,Plasma,0.025,HPA v25 single cell type (nCPM),2026-10-15
+B-cells,5.8,B_cell,0.004,HPA v25 single cell type (nCPM),2026-10-15
+Nk-cells,4.3,NK_cell,0.003,HPA v25 single cell type (nCPM),2026-10-15
+T-cells,2.5,T_cell,0.003,HPA v25 single cell type (nCPM),2026-10-15
+Erythrocytes,1.5,Erythrocyte,0.013,HPA v25 single cell type (nCPM),2026-10-15

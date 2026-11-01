@@ -1,0 +1,8 @@
+analysis,seed,parameters
+Incremental model cross-validation,20261018,5-fold cross-validation repeated 20 times; GSE89632 uses leave-one-out
+Incremental model bootstrap,20261019,B = 500; case-status-stratified subject-level resampling
+Matched DecontX pseudobulk,NA,"Uses existing 20,911-nucleus DecontX object generated with celda 1.28.0 and seed 12345; no correction rerun"
+MASL contrast permutation,202610261,B = 20000 target-specific Freedman-Lane permutations
+MASL design MDE,202610262,B = 10000 simulations per contrast
+MuSiC reference downsampling,12345,"Up to 1,000 nuclei per cell type"
+MASL descriptive mean-ratio bootstrap,12345,B = 10000

@@ -1,0 +1,6 @@
+family_id,reference,contrast,raw_model_p,bh_q,source,role
+PB-CTRL-3,ctrl,aMASH,4.2926305612559201e-05,0.0001287789168376776,results/pseudobulk_results.csv,primary donor-level depth-adjusted pseudobulk model
+PB-CTRL-3,ctrl,eMASH,0.00013414591589590001,0.00020121887384385001,results/pseudobulk_results.csv,primary donor-level depth-adjusted pseudobulk model
+PB-CTRL-3,ctrl,MASL,0.93406764559238598,0.93406764559238598,results/pseudobulk_results.csv,primary donor-level depth-adjusted pseudobulk model
+PB-MASL-2,MASL,aMASH,0.0049760241243170401,0.0084491272345911892,results/pseudobulk_results.csv,primary donor-level depth-adjusted pseudobulk model
+PB-MASL-2,MASL,eMASH,0.0084491272345911892,0.0084491272345911892,results/pseudobulk_results.csv,primary donor-level depth-adjusted pseudobulk model

@@ -1,0 +1,8 @@
+data/
+.Rhistory
+.RData
+.Renviron
+.Rproj.user/
+*.Rhistory
+*.RData
+Rplots.pdf

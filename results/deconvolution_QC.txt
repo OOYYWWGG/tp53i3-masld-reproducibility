@@ -1,0 +1,98 @@
+Bulk 去卷积（MuSiC）QC 报告
+============================================================
+生成日期： 2026-10-17
+MuSiC 版本： 1.0.0
+单细胞参考：GSE289173，使用细胞数= 13712
+每类最多下采样： 1000
+参考细胞类型： B_cell, Cholangiocyte, Dendritic, Endothelial, Erythrocyte, Hepatocyte, HSC_Stellate, Lymphatic_EC, Macrophage, Mast_cell, Monocyte, NK_cell, Perivascular, Plasma, T_cell
+
+一、方法
+1. 以 GSE289173 sc_anno.rda 的 counts 为参考，按 cell_type 下采样。
+2. MuSiC music_prop，clusters=cell_type，samples=sample，估计每个 bulk 样本的细胞比例。
+3. GSE135251 使用 counts -> CPM（线性尺度）；三个芯片队列使用 log2 -> 2^x-1 -> 按样本总和缩放为 1e6。
+4. 比例报告 8 个目标类型 + Other（其余参考细胞类型）。
+5. marker score = 2.1 signature 基因的队列内基因 z-score 均值。
+6. marker score 与估计比例的 Spearman 相关；每个队列内 8 个类型做 BH-FDR。
+
+二、合理性检查
+负值总数： 0
+每样本比例总和范围： 1 - 1
+基因重叠数： GSE135251=21417; GSE48452=16017; GSE89632=15565; GSE49541=16047
+
+三、队列比例汇总（mean / median / min / max）
+GSE135251	B/Plasma	0 / 0 / 0 / 9e-04
+GSE48452	B/Plasma	2e-04 / 0 / 0 / 0.0081
+GSE49541	B/Plasma	1e-04 / 0 / 0 / 9e-04
+GSE89632	B/Plasma	0.0048 / 7e-04 / 0 / 0.0266
+GSE135251	Cholangiocyte	5e-04 / 0 / 0 / 0.0382
+GSE48452	Cholangiocyte	0.0146 / 0.0085 / 0 / 0.1039
+GSE49541	Cholangiocyte	0.0078 / 0.0048 / 0 / 0.0553
+GSE89632	Cholangiocyte	0.085 / 0.0809 / 0.0571 / 0.1544
+GSE135251	Endothelial	9e-04 / 0 / 0 / 0.0215
+GSE48452	Endothelial	0.0372 / 0.0362 / 0.0128 / 0.0738
+GSE49541	Endothelial	5e-04 / 2e-04 / 0 / 0.0054
+GSE89632	Endothelial	0.0821 / 0.0819 / 0.0546 / 0.1087
+GSE135251	Hepatocyte	0.8769 / 0.8865 / 0.6481 / 0.9808
+GSE48452	Hepatocyte	0.6743 / 0.687 / 0.3594 / 0.8054
+GSE49541	Hepatocyte	0.6646 / 0.6633 / 0.505 / 0.7867
+GSE89632	Hepatocyte	0.3273 / 0.3244 / 0.2106 / 0.3841
+GSE135251	HSC/Stellate	0 / 0 / 0 / 0.001
+GSE48452	HSC/Stellate	0.0081 / 0.0054 / 0 / 0.064
+GSE49541	HSC/Stellate	4e-04 / 2e-04 / 0 / 0.0028
+GSE89632	HSC/Stellate	0.0326 / 0.0314 / 0.0151 / 0.0523
+GSE135251	Macrophage	0 / 0 / 0 / 0
+GSE48452	Macrophage	0 / 0 / 0 / 7e-04
+GSE49541	Macrophage	0 / 0 / 0 / 0
+GSE89632	Macrophage	0.0034 / 0 / 0 / 0.0352
+GSE135251	Monocyte	0.0118 / 0.0078 / 0 / 0.0616
+GSE48452	Monocyte	0.0969 / 0.0967 / 0.0539 / 0.2334
+GSE49541	Monocyte	0.0118 / 0.0116 / 0 / 0.0327
+GSE89632	Monocyte	0.1963 / 0.1914 / 0.1408 / 0.2668
+GSE135251	Other	1e-04 / 0 / 0 / 0.0213
+GSE48452	Other	0.0024 / 0.0011 / 0 / 0.0299
+GSE49541	Other	0.0128 / 0.0121 / 0 / 0.0249
+GSE89632	Other	0.0412 / 0.0368 / 0.0192 / 0.1938
+GSE135251	T/NK	0.1097 / 0.1019 / 0.0192 / 0.2903
+GSE48452	T/NK	0.1662 / 0.167 / 0.1136 / 0.2696
+GSE49541	T/NK	0.3019 / 0.2999 / 0.2059 / 0.4607
+GSE89632	T/NK	0.2272 / 0.2249 / 0.1855 / 0.2801
+
+四、marker score 相关性
+GSE135251	Hepatocyte	rho=0.235, P=0.000505, FDR=0.000707
+GSE135251	Cholangiocyte	rho=0.261, P=0.000101, FDR=0.000176
+GSE135251	Monocyte	rho=0.781, P=1.17e-45, FDR=8.18e-45
+GSE135251	Macrophage	rho=NA, P=NA, FDR=NA
+GSE135251	T/NK	rho=0.666, P=4.43e-29, FDR=1.55e-28
+GSE135251	B/Plasma	rho=0.025, P=0.713, FDR=0.713
+GSE135251	Endothelial	rho=0.345, P=1.92e-07, FDR=4.49e-07
+GSE135251	HSC/Stellate	rho=0.185, P=0.00649, FDR=0.00758
+GSE48452	Hepatocyte	rho=0.164, P=0.166, FDR=0.19
+GSE48452	Cholangiocyte	rho=0.537, P=9.55e-07, FDR=1.53e-06
+GSE48452	Monocyte	rho=0.78, P=4.3e-16, FDR=1.72e-15
+GSE48452	Macrophage	rho=0.309, P=0.00774, FDR=0.0103
+GSE48452	T/NK	rho=0.76, P=6.33e-15, FDR=1.69e-14
+GSE48452	B/Plasma	rho=-0.115, P=0.332, FDR=0.332
+GSE48452	Endothelial	rho=0.876, P=4.02e-24, FDR=3.21e-23
+GSE48452	HSC/Stellate	rho=0.753, P=1.47e-14, FDR=2.94e-14
+GSE89632	Hepatocyte	rho=0.129, P=0.312, FDR=0.312
+GSE89632	Cholangiocyte	rho=0.263, P=0.0371, FDR=0.0593
+GSE89632	Monocyte	rho=0.647, P=1.04e-08, FDR=2.77e-08
+GSE89632	Macrophage	rho=0.242, P=0.0562, FDR=0.0749
+GSE89632	T/NK	rho=0.711, P=6.69e-11, FDR=5.35e-10
+GSE89632	B/Plasma	rho=-0.15, P=0.24, FDR=0.274
+GSE89632	Endothelial	rho=0.267, P=0.0341, FDR=0.0593
+GSE89632	HSC/Stellate	rho=0.661, P=3.76e-09, FDR=1.51e-08
+GSE49541	Hepatocyte	rho=0.379, P=0.00101, FDR=0.00177
+GSE49541	Cholangiocyte	rho=0.5, P=7.92e-06, FDR=5.55e-05
+GSE49541	Monocyte	rho=0.418, P=0.000257, FDR=6e-04
+GSE49541	Macrophage	rho=NA, P=NA, FDR=NA
+GSE49541	T/NK	rho=0.432, P=0.000149, FDR=0.00052
+GSE49541	B/Plasma	rho=-0.012, P=0.923, FDR=0.923
+GSE49541	Endothelial	rho=0.292, P=0.0128, FDR=0.0149
+GSE49541	HSC/Stellate	rho=0.316, P=0.0069, FDR=0.00966
+
+五、限制
+1. MuSiC 假设参考与 bulk 的细胞类型和表达程序可比；snRNA 参考与 bulk 组织仍有差异。
+2. 三个芯片队列由 log2 转线性后使用，和 RNA-seq 的绝对尺度不完全一致；比例应作相对估计。
+3. 肝 bulk 中 Hepatocyte 比例高是合理的；若某类型大量为零或极端，需要结合 marker score 和参考文献判断。
+4. 本结果依赖 2.1 signature 仅用于 marker score 相关性，不参与 MuSiC 的基因集选择。

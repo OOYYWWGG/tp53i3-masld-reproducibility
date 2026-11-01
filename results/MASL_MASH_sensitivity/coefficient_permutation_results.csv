@@ -1,0 +1,3 @@
+"analysis","contrast","target_group","observed_beta_log2","permutation_null_center","permutation_p","null_abs_q95_log2","permutations","seed","bh_q"
+"target_specific_Freedman_Lane_permutation","eMASH vs MASL","eMASH",1.10625175907426,-0.0017618278418209,0.00589970501474926,0.80639405925827,20000,202610262,0.00589970501474926
+"target_specific_Freedman_Lane_permutation","aMASH vs MASL","aMASH",1.1495765765894,-0.00357873432048469,0.00324983750812459,0.785893272899452,20000,202610263,0.00589970501474926

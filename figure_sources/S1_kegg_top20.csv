@@ -1,0 +1,21 @@
+Description,FoldEnrichment,p.adjust,Count
+ECM-receptor interaction,5.312,0.100479976876526,6
+Small cell lung cancer,5.084,0.100479976876526,6
+Cytokine-cytokine receptor interaction,2.928,0.100479976876526,11
+Virion - Human immunodeficiency virus,31.518,0.100479976876526,2
+Protein digestion and absorption,4.59,0.100479976876526,6
+p53 signaling pathway,5.253,0.107427592128573,5
+PPAR signaling pathway,5.117,0.107427592128573,5
+Integrin signaling,3.582,0.109982480019517,7
+PI3K-Akt signaling pathway,2.408,0.169153144389325,11
+AGE-RAGE signaling pathway in diabetic complications,3.901,0.237429310465739,5
+Platinum drug resistance,4.318,0.27905632307641,4
+Melanoma,4.318,0.27905632307641,4
+Focal adhesion,2.717,0.27905632307641,7
+Phagocytosis,2.492,0.27905632307641,8
+Cysteine and methionine metabolism,4.546,0.438178942781164,3
+Cholesterol metabolism,4.546,0.438178942781164,3
+Cytoskeleton in muscle cells,2.367,0.438178942781164,7
+Histidine metabolism,7.163,0.438178942781164,2
+Arginine biosynthesis,6.852,0.438178942781164,2
+Proximal tubule bicarbonate reclamation,6.852,0.438178942781164,2

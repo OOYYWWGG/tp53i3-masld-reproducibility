@@ -1,0 +1,2 @@
+"analysis","k","pooled_rho","ci_low","ci_high","p","tau2","I2","pi_low","pi_high","method"
+"TP53I3_fibrosis_F0_F4_3cohorts",3,0.354637502068593,0.16214974547697,0.521125263852694,0.0164482973430601,0,0,0.16214974547697,0.521125263852694,"Fisher z; variance = 1.06/(n - 3); REML; Hartung-Knapp; prediction interval"

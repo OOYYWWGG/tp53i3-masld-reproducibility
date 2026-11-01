@@ -1,0 +1,6 @@
+项目,取值
+共享细胞类型数,12
+Spearman rho,0.795
+P 值,1.99e-03
+HPA 数据来源,"Human Protein Atlas v25, single cell type, nCPM"
+本研究数据来源,"GSE289173 snRNA, TP53I3 阳性细胞比例（4.1_hub基因细胞定位.csv）"

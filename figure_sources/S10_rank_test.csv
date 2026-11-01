@@ -1,0 +1,2 @@
+analysis,comparison,n_total,n_controls,tp53i3_or,tp53i3_rank_high_to_low,percentile_below,controls_or_ge_tp53i3,empirical_p_one_sided,interpretation
+GSE289173_hepatocyte,aMASH_vs_ctrl,21,20,2.88326179623533,20,0.95,1,0.0952380952380952,TP53I3 is higher than 19/20 matched controls but not uniquely elevated; rank-based test does not establish specificity.
