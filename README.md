@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23862125.svg)](https://doi.org/10.5281/zenodo.23862125)
 # TP53I3 manuscript reproducibility package
 
 This package contains the analysis code, derived result tables, software
