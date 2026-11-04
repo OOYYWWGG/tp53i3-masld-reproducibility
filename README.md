@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23919058.svg)](https://doi.org/10.5281/zenodo.23919058)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23862124.svg)](https://doi.org/10.5281/zenodo.23862124)
 # TP53I3 manuscript reproducibility package
 
 This package contains the analysis code, derived result tables, software
@@ -13,7 +13,8 @@ results of the TP53I3 manuscript.
   material.
 - `scripts/`: current analysis and figure-generation scripts.
 - `results/`: current derived result tables.
-- `figure_sources/`: frozen plotting inputs and final assets for main Figures 1-6 and Supplementary Figures S1-S13, including one combined S1 figure.
+- `figure_sources/`: frozen plotting inputs and final assets for main Figures 1-5
+  and Supplementary Figures S1-S15, including complete S1, S14, and S15 assets.
 - `metadata/`: software versions, seeds, and cell-type signature definitions.
 - `checksums.csv`: SHA-256 values for all other package files.
 
@@ -77,7 +78,10 @@ labeled as such where reported.
 
 ## Version
 
-Reproducibility package v3.1 prepared on 2026-10-29. The F0-F4
+Reproducibility package v3.1 was prepared on 2026-10-29. Repository release
+v1.0.3 (2026-11-04) aligns the public figure map with the final manuscript:
+main Figures 1-5 and Supplementary Figures S1-S15. The former main Figure 6 is
+now Supplementary Figure S15. The F0-F4
 scale-sensitivity meta-analysis now uses the same `1.06/(n - 3)` Fisher-z
 variance approximation as the primary and NAS meta-analyses. See `VERSION.md`.
 

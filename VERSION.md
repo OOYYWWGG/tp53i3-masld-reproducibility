@@ -4,7 +4,23 @@ Submission reproducibility package
 
 Prepared for the final TP53I3 manuscript and supplementary materials.
 
-Date: 2026-10-29
+Date: 2026-11-04
+
+## Release v1.0.3: final manuscript figure-number alignment
+
+- Aligns the public figure inventory with the final manuscript: main Figures
+  1-5 and Supplementary Figures S1-S15.
+- Renames the former main Figure 6 to Supplementary Figure S15 and synchronizes
+  its PNG, PDF, SVG, plotting data, and generation scripts.
+- Adds Supplementary Figure S14, its interaction and stage-count tables, final
+  assets, and plotting script.
+- Corrects supplementary-map paths for Figures S7, S8, and S10 and updates
+  current Methods and Results section references.
+- Changes no estimates, sample sizes, statistical thresholds, or interpretation
+  text.
+
+Earlier changelog entries below retain the figure labels used at the time of
+those releases. Current mappings are those stated above.
 
 ## v3.1 statistical consistency revision
 

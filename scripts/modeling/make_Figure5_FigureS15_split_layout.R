@@ -297,7 +297,7 @@ panel_c <- ggplot(
     plot.title = element_text(face = "bold", size = 10)
   )
 
-figure6 <- arrangeGrob(
+figure_s15 <- arrangeGrob(
   panel_a,
   panel_b,
   panel_c,
@@ -342,7 +342,7 @@ save_figure <- function(plot, stem, width, height) {
 }
 
 save_figure(figure5, "Figure5", 6.5, 3.0)
-save_figure(figure6, "Figure6", 6.1, 6.1 * 8.0 / 7.0)
+save_figure(figure_s15, "FigureS15", 6.1, 6.1 * 8.0 / 7.0)
 
 file.copy(
   file.path(render_dir, "Figure5.png"),
@@ -360,19 +360,19 @@ file.copy(
   overwrite = TRUE
 )
 file.copy(
-  file.path(render_dir, "Figure6.png"),
-  file.path(package_figure_dir, "Figure6_incremental_performance.png"),
+  file.path(render_dir, "FigureS15.png"),
+  file.path(package_figure_dir, "FigureS15_incremental_performance.png"),
   overwrite = TRUE
 )
 file.copy(
-  file.path(render_dir, "Figure6.pdf"),
-  file.path(package_figure_dir, "Figure6_incremental_performance.pdf"),
+  file.path(render_dir, "FigureS15.pdf"),
+  file.path(package_figure_dir, "FigureS15_incremental_performance.pdf"),
   overwrite = TRUE
 )
 file.copy(
-  file.path(render_dir, "Figure6.svg"),
-  file.path(package_figure_dir, "Figure6_incremental_performance.svg"),
+  file.path(render_dir, "FigureS15.svg"),
+  file.path(package_figure_dir, "FigureS15_incremental_performance.svg"),
   overwrite = TRUE
 )
 
-cat("Generated split Figure 5 and Figure 6\n")
+cat("Generated main Figure 5 and Supplementary Figure S15\n")
