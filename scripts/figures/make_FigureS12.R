@@ -6,19 +6,19 @@ suppressPackageStartupMessages({
 
 args <- commandArgs(trailingOnly = TRUE)
 if (length(args) < 2) {
-  stop("Usage: make_FigureS14.R <source-dir> <output-dir>")
+  stop("Usage: make_FigureS12.R <source-dir> <output-dir>")
 }
 source_dir <- args[1]
 out_dir <- args[2]
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
 estimates <- read.csv(
-  file.path(source_dir, "FigureS14_interaction_estimates.csv"),
+  file.path(source_dir, "FigureS12_interaction_estimates.csv"),
   check.names = FALSE,
   stringsAsFactors = FALSE
 )
 stage_counts <- read.csv(
-  file.path(source_dir, "FigureS14_stage_counts.csv"),
+  file.path(source_dir, "FigureS12_stage_counts.csv"),
   check.names = FALSE,
   stringsAsFactors = FALSE
 )
@@ -222,5 +222,5 @@ save_figure <- function(plot, stem, width, height) {
   )
 }
 
-save_figure(figure, "FigureS14_label_fibrosis_interaction", 6.5, 6.0)
-cat("FIGURES14_INTERACTION_OK\n")
+save_figure(figure, "FigureS12_label_fibrosis_interaction", 6.5, 6.0)
+cat("FIGURES12_INTERACTION_OK\n")

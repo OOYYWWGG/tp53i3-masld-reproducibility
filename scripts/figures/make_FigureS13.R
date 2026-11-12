@@ -341,7 +341,7 @@ panel_c <- ggplot(
     legend.margin = margin(0, 0, 2, 0)
   )
 
-figure_s15 <- panel_a / panel_b / panel_c +
+figure_s13 <- panel_a / panel_b / panel_c +
   plot_layout(heights = c(1, 1, 1))
 
 save_figure <- function(plot, stem, width, height) {
@@ -381,7 +381,7 @@ save_figure <- function(plot, stem, width, height) {
 }
 
 save_figure(figure5, "Figure5", 6.5, 3.0)
-save_figure(figure_s15, "FigureS15", 6.5, 8.1)
+save_figure(figure_s13, "FigureS13", 6.5, 8.1)
 
 file.copy(
   file.path(render_dir, "Figure5.png"),
@@ -400,18 +400,18 @@ file.copy(
 )
 file.copy(
   file.path(render_dir, "FigureS15.png"),
-  file.path(package_figure_dir, "FigureS15_incremental_performance.png"),
+  file.path(package_figure_dir, "FigureS13_incremental_performance.png"),
   overwrite = TRUE
 )
 file.copy(
   file.path(render_dir, "FigureS15.pdf"),
-  file.path(package_figure_dir, "FigureS15_incremental_performance.pdf"),
+  file.path(package_figure_dir, "FigureS13_incremental_performance.pdf"),
   overwrite = TRUE
 )
 file.copy(
   file.path(render_dir, "FigureS15.svg"),
-  file.path(package_figure_dir, "FigureS15_incremental_performance.svg"),
+  file.path(package_figure_dir, "FigureS13_incremental_performance.svg"),
   overwrite = TRUE
 )
 
-cat("Generated main Figure 5 and Supplementary Figure S15\n")
+cat("Generated main Figure 5 and Supplementary Figure S13\n")

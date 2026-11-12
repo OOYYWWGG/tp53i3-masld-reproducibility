@@ -14,7 +14,7 @@ results of the TP53I3 manuscript.
 - `scripts/`: current analysis and figure-generation scripts.
 - `results/`: current derived result tables.
 - `figure_sources/`: frozen plotting inputs and final assets for main Figures 1-5
-  and Supplementary Figures S1-S15, including complete S1, S14, and S15 assets.
+  and Supplementary Figures S1-S13.
 - `metadata/`: software versions, seeds, and cell-type signature definitions.
 - `checksums.csv`: SHA-256 values for all other package files.
 
@@ -46,31 +46,23 @@ Base and recommended R packages (`grid`, `grDevices`, `stats`, `parallel`,
 
 CRAN: `cowplot`, `data.table`, `ggplot2`, `ggrepel`, `gtable` (installed with
 ggplot2), `gridExtra`, `lme4`, `metafor`, `patchwork`, `pheatmap`, `png`,
-`pROC`, `Seurat`, `SeuratObject`, `svglite`, `coloc`, `mr.raps`.
+`pROC`, `Seurat`, `SeuratObject`, `svglite`.
 
 Bioconductor: `GSVA`, `SingleCellExperiment`.
 
 GitHub:
 
 - `MuSiC` — `remotes::install_github("xuranw/MuSiC")`
-- `TwoSampleMR` — `remotes::install_github("MRCIEU/TwoSampleMR")`
-- `MRPRESSO` — `remotes::install_github("rondolab/MR-PRESSO")`
 
 ```r
 install.packages(c("cowplot", "data.table", "ggplot2", "ggrepel", "gridExtra",
                    "lme4", "metafor", "patchwork", "pheatmap", "png", "pROC",
-                   "Seurat", "SeuratObject", "svglite", "coloc", "mr.raps"))
+                   "Seurat", "SeuratObject", "svglite"))
 if (!requireNamespace("BiocManager", quietly = TRUE)) {
   install.packages("BiocManager")
 }
 BiocManager::install(c("GSVA", "SingleCellExperiment"))
 ```
-
-The MR and colocalization scripts in `scripts/mr_coloc/` read external summary
-statistics from `data/mr/` (eQTLGen, FinnGen R12, GTEx v8, GWAS Catalog, and
-the 1000 Genomes EUR LD panel). These raw inputs are not redistributed; their
-sources are listed in `data_sources.csv`. Script outputs are written to
-`results/mr/` and `results/mr_coloc/`.
 
 The manuscript distinguishes association from specificity, diagnostic
 performance, and causal inference. Exploratory or sensitivity analyses are
@@ -78,11 +70,9 @@ labeled as such where reported.
 
 ## Version
 
-Reproducibility package v3.1 was prepared on 2026-10-29. Repository release
-v1.0.3 (2026-11-04) uses the fixed-version DOI
-`10.5281/zenodo.23940279` and aligns the public figure map with the final
-manuscript: main Figures 1-5 and Supplementary Figures S1-S15. The former main
-Figure 6 is now Supplementary Figure S15. The F0-F4
+Reproducibility package v4.0 was prepared on 2026-11-13. Repository release
+v4.0 (2026-11-13) is the de-MR manuscript package; the Zenodo DOI will be assigned
+when the new version is deposited. The F0-F4
 scale-sensitivity meta-analysis now uses the same `1.06/(n - 3)` Fisher-z
 variance approximation as the primary and NAS meta-analyses. See `VERSION.md`.
 

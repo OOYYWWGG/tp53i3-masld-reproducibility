@@ -17,7 +17,7 @@ S10,GSE289173 matched-control summary,figure_sources/S10_summary.csv,2D40D3E707C
 S10,GSE289173 matched-control rank test,figure_sources/S10_rank_test.csv,A1F83A7C175DA1CC2EB8AF297F30F5CC6088F474CA85206C8AEA4DADEF130D9E,GSE289173
 Supplementary Figure S2,Plotting loci table,figure_sources/S2_eqtl_loci.csv,4A4040F36DE6FB4777710AD2FBA0D60A4709A6BFE4AC1608A220345745728061,Frozen TP53I3 TGYCC-repeat locus table used for panel A/B
 Figure 1,Final PNG,figure_sources/Figure1.png,AB115323D976C8C887ACD233D7155A3094E665FF3676C7D748ECB295C995C167,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
-Figure 1,Final vector PDF,figure_sources/Figure1.pdf,633D172B8DC42D71BD1EA5650856974A941C8A4573A9A6CCF48368B64135DDC9,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
+Figure 1,Final vector PDF,figure_sources/Figure1.pdf,E86FC0FE3DBA248BD6871409499B6E5265C97C743CAF54B919B2E0B10FB582C7,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
 Figure 1,Final SVG,figure_sources/Figure1.svg,AC478D42621CFCF124BB4D8C90A5C0B4670D371479A4B8411B48DEA51F738345,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
 Figure 2,Final PNG,figure_sources/Figure2.png,B9B0A4A684D92FA52EE2C9FBADEFF89A3505F1770B9105706D518CEB1BFBF939,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
 Figure 2,Final vector PDF,figure_sources/Figure2.pdf,6ACD760F16ECAD9D670AF83139BD4A44135BA726755C7ED28D7EC40C44FC9646,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
@@ -29,7 +29,7 @@ Figure 4,Final PNG,figure_sources/Figure4_specificity.png,CCFE4B5F4ABB0CCBB42F1E
 Figure 4,Final vector PDF,figure_sources/Figure4_specificity.pdf,81F73224D23C79761A6B326995FB83ECD3E943CE2CE9D89E515BC7B2D9D8FAE6,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
 Figure 4,Final SVG,figure_sources/Figure4_specificity.svg,2783E401CDFF0AB1C43C5AD5EB2DB344C67301A1F179E39D356D052ED716AF81,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
 Figure 5,Final PNG,figure_sources/Figure5_incremental.png,D00A2CCB7F7CDDF3DB953E5CBBD4D20AAC524E67A971FA7049572DE375D6E3F4,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
-Figure 5,Final vector PDF,figure_sources/Figure5_incremental.pdf,A64249BB4C9E3E315021E9DB0D3FD07D60C41D7C71F497A638DAB9C137481F5B,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
+Figure 5,Final vector PDF,figure_sources/Figure5_incremental.pdf,1643A5E2DFE35121261ED401D8653843A3674D6ECF1BE44E0171018C20A30077,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
 Figure 5,Final SVG,figure_sources/Figure5_incremental.svg,92488D34D115FBE27E3A8ED9F9F83F9CC11AC421394347010FDFEE82706AA867,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
 Supplementary Figure S1,Final PNG,figure_sources/FigureS1.png,1821477685194467567087F83155A461A69FD8C9CDAFEA155DD703007122B4BE,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
 Supplementary Figure S1,Final vector PDF,figure_sources/FigureS1.pdf,B6972E2FC08BC05645F74E9AE560E77805FCC343A6ECBC6541CEC1ECE8585AF3,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
@@ -64,17 +64,11 @@ Supplementary Figure S10,Final SVG,figure_sources/FigureS10.svg,61A1C2D0B22A34F6
 Supplementary Figure S11,Final PNG,figure_sources/FigureS11.png,B6DD2028567AD45424D3510F6F357572E614AA6DD055AFE8A44D3E7A1F23372B,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
 Supplementary Figure S11,Final vector PDF,figure_sources/FigureS11.pdf,5B3B789FD413C8405F3CE693CB92102C87A5BE425F204ACE077257F612D153A4,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
 Supplementary Figure S11,Final SVG,figure_sources/FigureS11.svg,680B8C1C4148F773509218912D3C66EE403035EC2753748352AFBBD8A53208DC,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
-Supplementary Figure S12,Final PNG,figure_sources/FigureS12_leave_one_out_part1.png,A9B37DF89C8190D87F38BB404E6948A7896AE2A9B04EE45DF229A9F2B5B17B4A,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
-Supplementary Figure S12,Final vector PDF,figure_sources/FigureS12_leave_one_out_part1.pdf,88716D90EF2A686E9D188F9E8C9639DEFF0400DB179CFD6C54338060B21BA820,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
-Supplementary Figure S12,Final SVG,figure_sources/FigureS12_leave_one_out_part1.svg,E62EFCCBAC04818F8EE9FA795E066E3A607F1E4FAC9559F38CFD646B12D0A9F3,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
-Supplementary Figure S13,Final PNG,figure_sources/FigureS13_leave_one_out_part2.png,EF2421845481FAB2212A866A7498BE6F7196511BCD15DECF54C3274237BB0AEC,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
-Supplementary Figure S13,Final vector PDF,figure_sources/FigureS13_leave_one_out_part2.pdf,1DB2C2255D4B075583F9A549CB5C3D6C5C96819825BF16551959807EE01E814E,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
-Supplementary Figure S13,Final SVG,figure_sources/FigureS13_leave_one_out_part2.svg,42FF2E4BECCE624EF91FD54B54BC4A3182A23F2D17C380550B7983083797D7AB,Final 600-dpi/vector figure asset generated from the frozen plotting inputs
-Supplementary Figure S14,Interaction estimates,figure_sources/FigureS14_interaction_estimates.csv,C2502983C4A38F827815811CE66674EF2B461327A18D87912151317B545EEF28,Primary and HC3 interaction estimates
-Supplementary Figure S14,Stage counts,figure_sources/FigureS14_stage_counts.csv,648F34A09AC1B54D44A060BABB3B98E753294E2261F9E1D7A0F501AB3B1408B4,Source-label counts by observed fibrosis stage
-Supplementary Figure S14,Final PNG,figure_sources/FigureS14_label_fibrosis_interaction.png,660C53DE52A63AF72839A632244200C58F1CDC1E3666ECB728CE7514E6D9A9DD,Final 600-dpi/vector figure asset
-Supplementary Figure S14,Final vector PDF,figure_sources/FigureS14_label_fibrosis_interaction.pdf,D71AD7F82AA693F10B927F7403B94FFB2B290D14A0B5AB6461A1B6C2A3E10917,Final 600-dpi/vector figure asset
-Supplementary Figure S14,Final SVG,figure_sources/FigureS14_label_fibrosis_interaction.svg,9494F1C4D027C2CBBB1694305531363F4A5BB43B15C912E689317378492155D2,Final 600-dpi/vector figure asset
-Supplementary Figure S15,Final PNG,figure_sources/FigureS15_incremental_performance.png,31A4901ACA8E42E4CE5BCD6EFC191398BCAC19D4346EC5D28A5EEAEA85B38AD2,Final 600-dpi/vector asset for the former main Figure 6
-Supplementary Figure S15,Final vector PDF,figure_sources/FigureS15_incremental_performance.pdf,06566C2EAFA25ECC76430FAD494F59A71E92A891135F71E9D65A14CC0E4D8E27,Final 600-dpi/vector asset for the former main Figure 6
-Supplementary Figure S15,Final SVG,figure_sources/FigureS15_incremental_performance.svg,0DED70E53516AB2DEA31D33CE0AD2DF3AD95028272D004F2B7B10492D567FA66,Final 600-dpi/vector asset for the former main Figure 6
+Supplementary Figure S12,Interaction estimates,figure_sources/FigureS12_interaction_estimates.csv,C2502983C4A38F827815811CE66674EF2B461327A18D87912151317B545EEF28,Primary and HC3 interaction estimates
+Supplementary Figure S12,Stage counts,figure_sources/FigureS12_stage_counts.csv,648F34A09AC1B54D44A060BABB3B98E753294E2261F9E1D7A0F501AB3B1408B4,Source-label counts by observed fibrosis stage
+Supplementary Figure S12,Final PNG,figure_sources/FigureS12_label_fibrosis_interaction.png,660C53DE52A63AF72839A632244200C58F1CDC1E3666ECB728CE7514E6D9A9DD,Final 600-dpi/vector figure asset
+Supplementary Figure S12,Final vector PDF,figure_sources/FigureS12_label_fibrosis_interaction.pdf,D71AD7F82AA693F10B927F7403B94FFB2B290D14A0B5AB6461A1B6C2A3E10917,Final 600-dpi/vector figure asset
+Supplementary Figure S12,Final SVG,figure_sources/FigureS12_label_fibrosis_interaction.svg,9494F1C4D027C2CBBB1694305531363F4A5BB43B15C912E689317378492155D2,Final 600-dpi/vector figure asset
+Supplementary Figure S13,Final PNG,figure_sources/FigureS13_incremental_performance.png,31A4901ACA8E42E4CE5BCD6EFC191398BCAC19D4346EC5D28A5EEAEA85B38AD2,Final 600-dpi/vector asset 
+Supplementary Figure S13,Final vector PDF,figure_sources/FigureS13_incremental_performance.pdf,06566C2EAFA25ECC76430FAD494F59A71E92A891135F71E9D65A14CC0E4D8E27,Final 600-dpi/vector asset 
+Supplementary Figure S13,Final SVG,figure_sources/FigureS13_incremental_performance.svg,0DED70E53516AB2DEA31D33CE0AD2DF3AD95028272D004F2B7B10492D567FA66,Final 600-dpi/vector asset 

@@ -32,14 +32,14 @@
 - Keep `Heterogeneity: I2 = ...` as the C/D subtitle, separate from the
   Cohort/Pooled legend.
 
-## Supplementary Figure S15-specific rules
+## Supplementary Figure S13-specific rules
 
 - Use the same cohort-label scheme in panels A-C.
 - Keep AUC values as compact in-panel annotations, not in facet titles.
 - Preserve the 0-1 axis range and a small boundary expansion so curves and
   calibration points at 0 or 1 are not clipped.
 
-## Supplementary Figure S14-specific rules
+## Supplementary Figure S12-specific rules
 
 - Panel A shows both conventional and HC3 interaction intervals.
 - Panel B shows case/control counts by fibrosis stage and explicitly identifies
